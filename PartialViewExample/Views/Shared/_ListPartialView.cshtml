@@ -1,0 +1,9 @@
+﻿<div class="list">
+    <h3>@ViewBag.listTitle</h3>
+    <ul>
+        @foreach(string data in (List<string>)ViewData["ListItem"])
+        {
+            <li>@data</li>
+        }
+    </ul>
+</div>

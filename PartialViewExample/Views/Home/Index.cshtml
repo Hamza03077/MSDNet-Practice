@@ -1,0 +1,33 @@
+﻿<h1>Home Content</h1>
+
+<div class="card-body">
+    @{
+        // await Html.RenderPartialAsync("_ListPartialView");
+        ViewData["ListTitle"] = "Country";
+        ViewBag.ListItem = new List<string>()
+        {
+            "India",
+            "US",
+            "Russia",
+            "Chaina",
+            "Pakistan"
+        };
+        // await Html.RenderPartialAsync("_ListPartialView");
+    }
+    <button id="LoadData" class="btn btn-primary">Load Data</button>
+
+    <div id="LoadPartialView" class="table-active">
+
+    </div>
+</div>
+
+<script>
+    debugger;
+    document.querySelector("#LoadData").addEventListener("click",async function(){
+    let partialresponse = await fetch("/ReturnPartial");
+    let partialui = await partialresponse.text();
+
+    document.querySelector("#LoadData").innerHTML = partialui;
+
+    });
+</script>
