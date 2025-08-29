@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\10706557\\OneDrive - LTIMindtree\\Practice\\Net Core\\FromBegining\\DotNetMaster\\CSVToJsonApp\\CSVToJsonApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\10706557\\OneDrive - LTIMindtree\\Practice\\Net Core\\FromBegining\\DotNetMaster\\CSVToJsonApp\\CSVToJsonApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\10706557\\OneDrive - LTIMindtree\\Practice\\Net Core\\FromBegining\\DotNetMaster\\CSVToJsonApp\\CSVToJsonApp.csproj",
+        "projectName": "CSVToJsonApp",
+        "projectPath": "C:\\Users\\10706557\\OneDrive - LTIMindtree\\Practice\\Net Core\\FromBegining\\DotNetMaster\\CSVToJsonApp\\CSVToJsonApp.csproj",
+        "packagesPath": "C:\\Users\\10706557\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\10706557\\OneDrive - LTIMindtree\\Practice\\Net Core\\FromBegining\\DotNetMaster\\CSVToJsonApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\10706557\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
